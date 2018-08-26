@@ -1,7 +1,7 @@
-import txtgamelib.res as res
+import txtgamelib.resolver as resolver
 import os.path as fs
 
-class ResourceLoader(res.Resolver):
+class ResourceLoader(resolver.Resolver):
 	def __init__(self,debug=False):
 		super(ResourceLoader,self).__init__()
 		if debug:

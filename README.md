@@ -14,6 +14,8 @@ Asset names follow 2 formats:
  - Namespaced: `namespace:path/to/asset.ext`, resolves to `assets/namespace/ext/path/to/asset.ext`.
  - Non-namespaced: `path/to/asset.txt`, resolves to `assets/ext/path/to/asset.ext`.
 
-## Resolver (`txtgamelib.res`)
+## Resolver (`txtgamelib.resolver`)
 
-Allows for resolving names to objects. Use `txtgamelib.res.Resolver.addResolver` to add functions to resolve names.
+Allows for resolving names to objects. Use `txtgamelib.resolver.Resolver.addResolver` to add functions to resolve names.
+
+`txtgamelib.resource.ResourceLoader` is an example of a `Resolver`.
