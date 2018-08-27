@@ -31,8 +31,8 @@ class ResourceLoader(resolver.Resolver):
 	"""Returns the full path of a resource, given a namespaced resource name."""
 	def resourcePath(self,name):
 		namespace,resource = name.split(":")
-		ext = fs.splitext(resource)[1]
-		return fs.join("assets",namespace,ext[1:],resource).replace("//","/")
+#		ext = fs.splitext(resource)[1]
+		return fs.join("assets",namespace,resource).replace("//","/")
 
 class Resource:
 	def __init__(self,name,create_if_nonexistant=False):

@@ -11,8 +11,8 @@ A library for text games.
 
 Asset names follow 2 formats:
 
- - Namespaced: `namespace:path/to/asset.ext`, resolves to `assets/namespace/ext/path/to/asset.ext`.
- - Non-namespaced: `path/to/asset.txt`, resolves to `assets/ext/path/to/asset.ext`.
+ - Namespaced: `namespace:path/to/asset.ext`, resolves to `assets/namespace/path/to/asset.ext`.
+ - Non-namespaced: `path/to/asset.txt`, resolves to `assets/path/to/asset.ext`.
 
 ## Resolver (`txtgamelib.resolver`)
 
