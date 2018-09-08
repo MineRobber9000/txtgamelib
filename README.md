@@ -2,6 +2,15 @@
 
 A library for text games.
 
+## Goals
+
+ - [X] Resource loaders
+ - [ ] Menu system
+    - [ ] Curses wrapper
+        - [X] Crashes don't mess up the screen
+	- [ ] Abstract away curses lib
+            - [ ] Use urwid instead?
+
 ## Resources (`txtgamelib.resource`)
 
  - `ResourceLoader` - Resolves asset names (see below).
